@@ -1,0 +1,45 @@
+*{
+    transition: all 0.25s;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background: steelblue;
+    background-image: url("image/img10.jpg  ");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 110%;
+}
+
+#encabezado
+{
+  width: 80vw;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background:rgb(229, 229, 235);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.opcion
+{
+    width: 70vw;
+    background: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+ 
+.opcion:hover
+{
+    background: lightgray;
+    cursor: pointer;
+}
